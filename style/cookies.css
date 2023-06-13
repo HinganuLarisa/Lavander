@@ -1,0 +1,23 @@
+.cookies {
+    margin-top: 100px; 
+}
+.cookies-container {
+    width: 100%;
+    background-color:var(--bg-secondary);
+    color: #787b7e
+}
+.cookies h6 {
+    font-weight: 750;
+}
+.cookies ul {
+    list-style-type: none;
+}
+.cookies li {
+    margin-left: -32px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.title-list {
+    
+    font-weight: 650;
+}

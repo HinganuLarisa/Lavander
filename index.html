@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavander</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/main.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400&family=Courgette&family=Josefin+Sans:wght@100&family=Montserrat:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,900&family=Courgette&display=swap" rel="stylesheet">
+    <!--Owl Carousel Min. css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <!--Owl Carousel Theme Min. css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <!--Newselter-popup-->
+    <div class="newseltter-popup">
+      <h3>Abonare confirmată</h3>
+      <h5>Iți mulțumim!</h5>
+    </div>
+    <!-- Navabr -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assets/logo.png" alt="log" class="img-logo">
+          </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/index.html">
+                        Acasă
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/pages/aboutUs.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Despre noi
+                    </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" href="/pages/aboutUs.html">
+                        Despre noi
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/pages/privecyPolicy.html">
+                        Politica de confidențialitate
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/pages/termsAndConditions.html">
+                        Termeni și condiții
+                    </a>
+                </li>
+            </ul>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle"  href="/pages/aboutUs.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Ocazii și evenimente
+                  </a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item" href="/pages/valentinesDay.html">
+                     Flori ziua îndrăgostiților
+                  </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/pages/specialOccasions.html">
+                      Ocazii speciale
+                  </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/pages/weddings.html">
+                      Flori nunți
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="/pages/nameDay.html">
+                      Flori zi onomastică
+                    </a>
+                </li>
+            </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/gifts.html">
+                        Cadouri
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/contact.html">
+                        Contact
+                    </a>
+                 </li>
+            </ul>
+            <p>
+                <i class=" icon fa-sharp fa-regular fa-heart"></i>
+            </p>
+            <p>
+                <i class=" icon fa-solid fa-cart-shopping"></i>
+            </p>
+            <p>
+              <a href="/pages/login.html">
+                <i class=" icon fa-solid fa-user"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+    </nav>
+     <!--Welcome-->
+    <section class="welcome">
+      <div class="container box">
+        <div class="welcome-container">
+          <h1>Un buchet pentru fiecare ocazie</h1>
+          <p>Florile continuă să fie apreciate ca și cadou dar și pentru frumusețea lor. Indiferent ce este Ziua Îndragostiților, Ziua Mamei, altă zi specială sau o zi obișnuită,
+           un buchet frumos floral este obligat să aducă zâmbete pe chipul destinatarului său.
+          </p>
+          <a href="#section1">
+            <button type="submit" class="main-btn">Comandă acum</button>
+          </a>
+        </div>
+      <div class="img-container">
+        <img src="/assets/welcome-img1.png" alt="welcome-img" class="welcome-img">
+      </div>
+    </div>
+  </section>
+  <!--Welcome Lavander-->
+  <section class="welcome-lavander"  id="section1">
+    <div class="container">
+      <h2>Bun venit la magazinul de flori</h2>
+      <p class="description">O florărie cu o diferență...</p>
+        <p class="description mb-5">Bine ați venit la magazinul de flori Lavander din orșul Iași. Echipa noastră de experți  florari a creat 
+          flori artistice și pline de imaginație pentru toate ocaziile și oferă cu mândrie un serviciu de înaltă calitate cu atenție la detalii
+           de când am deschis ușile magazinului nostru în iulie 2020.</p>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="card card-shadow card-facilities">
+            <div class="card-body">
+              <h5 class="card-title ml-5">Transport gratuit în oraș</h5>
+              <p class="bar"></p>
+              <span class="delivery"><img src="/assets/free-delivery.png" alt="delivery"></span>
+              <p class="card-text mar-left">Produse cu  livrare gratuită.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 ">
+          <div class="card card-shadow card-facilities">
+            <div class="card-body">
+              <h5 class="card-title text-card">Suport clienti</h5>
+              <p class="bar"></p>
+              <span class="delivery"><img src="/assets/customer-service.png" alt="customer-service"></span>
+              <p class="card-text">24/7 Suport  pentru clienți.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card card-shadow card-facilities">
+            <div class="card-body">
+              <h5 class="card-title text-card-pay">Plata securizata</h5>
+              <p class="bar"></p>
+              <span class="delivery"><img src="/assets/credit-card.png" alt="credit-card"></span>
+              <p class="card-text">Cea mai sigură plată.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+  </section>
+  <!--Cookie-->
+  <div class="wrapper">
+    <header>
+      <i class="fa-solid fa-cookie"></i>
+      <h5>Utilizăm cookie</h5>
+    </header>
+    <div class="data">
+      <p>Folosim cookie-uri pentru a personaliza continutul, pentru a oferi functiile retelelor sociale si pentru a analiza traficul...<a href="/pages/cookies.html">Află mai mult</a></p>
+    </div>
+    <div class="buttons">
+      <button class="button">Acceptă</button>
+      <button class="button">Refuză</button>
+    </div>
+  </div>
+  <!--What we offer-->
+  <section class="what_offer">
+  <div class="container">
+    <h2>Ce oferim noi</h2>
+    <div class="card-group">
+      <div class="row container-row">
+        <div class="col-12 col-md-6 col-lg-3">
+        <img class=" card-img img_what_offer" src="/assets/valentine's-day.jpg" alt="valentine's day">
+          <a href="/pages/valentinesDay.html" class="btn ">Ziua îndrăgostiților</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class=" card-img img_what_offer" src="/assets/party.jpg" alt="party">
+          <a href="/pages/specialOccasions.html" class="btn ">Ocazii speciale</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+        <img class=" card-img img_what_offer"  src="/assets/wedding-flowers.jpg" alt="wedding">
+          <a href="/pages/weddings.html" class="btn">Nunți</a>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3">
+          <img class="card-img img_what_offer" src="/assets/gift-wrapping.jpg" alt="gift">
+            <a href="/pages/nameDay.html" class="btn">Zi onomastică</a>
+        </div>
+    </div>
+  </div>
+  </div>
+  </section>
+    <!--New products-->
+    <section>
+    <div class="our-plants">
+      <div class="container my-5">
+        <a id="2"><h2 class="text-center title_plants">Produse noi</h2>
+      </a>
+      <div class="row mt-5">
+        <div class="owl-carousel owl-theme">
+          <div class="item mb-4 h-100">
+            <div class="card  card-box border-0 shadow img-card">
+              <img src="/assets/img1.png" alt="image" class="card-img-top" >
+              <div class="card-body">
+              <h6 class="title_new_product">Buchet cu 11 trandafiri</h6>
+              <p class="text-center">290 lei</p>
+            </div>
+              <div class="center">
+                <button type="button" class="btn-product">Adaugă în coș</button>
+              </div>
+            </div>
+          </div>
+  <!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card card-box border-0 shadow img-card">
+      <img src="/assets/img2.png"  alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product"> Buchet lalele roz si albe</h6>
+      <p class="text-center">399 lei</p>
+      </div>
+      <div class="center">
+        <button type="button" class="btn-product"> Adaugă în coș </button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class= "card card-box border-0 shadow img-card">
+      <img src="/assets/img3.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Aranjament cu trandafiri </h6>
+      <p class="text-center">400 lei</p>
+      </div>
+      <div class="center">
+        <button  type="button" class="btn-product">Adaugă în coș</button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card  card-box border-0 shadow img-card">
+      <img src="/assets/img4.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Buchet cu flori mixte</h6>
+      <p class="text-center">190 lei</p>
+      </div>
+      <div class="center">
+        <button type="button" class="btn-product">Adaugă în coș</button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card card-box border-0 shadow img-card">
+      <img src="/assets/img5.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Buchet frezii si trandafiri</h6>
+      <p class="text-center">240 lei</p>
+    </div>
+      <div class="center">
+        <button type="button" class="btn-product "> Adaugă în coș </button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card card-box border-0 shadow img-card">
+      <img src="/assets/img6.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Aranjament cu frezii mov </h6>
+      <p class="text-center">280 lei</p>
+      </div>
+      <div class="center">
+        <button type="button" class="btn-product "> Adaugă în coș </button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card card-box border-0 shadow img-card">
+      <img src="/assets/img7.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Buchet mireasă dalia alb </h6>
+      <p class="text-center">310 lei</p>
+      </div>
+      <div class="center">
+        <button type="button" class="btn-product "> Adaugă în coș </button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+  <div class="item mb-4 h-100">
+    <div class="card card-box border-0 shadow img-card">
+      <img src="/assets/img8.png" alt="image" class="card-img-top">
+      <div class="card-body">
+      <h6 class="title_new_product">Buchet de 3 hortensii roz</h6>
+      <p class="text-center">270 lei</p>
+      </div>
+      <div class="center">
+        <button type="button" class="btn-product "> Adaugă în coș </button>
+      </div>
+    </div>
+  </div>
+<!--Item end-->
+<div class="item mb-4 h-100">
+<div class="card card-box border-0 shadow img-card">
+  <img src="/assets/img9.png" alt="image" class="card-img-top">
+  <div class="card-body">
+  <h6 class="title_new_product">Buchet mireasă rossa</h6>
+  <p class="text-center">300 lei</p>
+  </div>
+  <div class="center">
+    <button type="button" class="btn-product "> Adaugă în coș </button>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--Form newseltter-->
+    <form action="#">
+      <div class="container container-form form pt-5">
+      <div class="row d-flex justify-content-center m-2 ">
+        <div class="col-auto newseltter">
+          <p class="pt-2">
+            <strong>Abonează-te la newsletter-ul Lavander și primești 15% discount la prima comandă</strong>
+          </p>
+        </div>
+        <div class="col-md-5 col-12">
+          <div class="form-outline form-white mb-4">
+            <input type="email" id="email" class="form-control" placeholder="Email">
+            <span class="text"></span>
+          </div>
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn-form btn-outline-light mb-4" onclick="validateForm()">
+            Mă abonez
+          </button>
+        </div>
+      </div>
+    </div>
+    </form>
+ <!--Section choose a city-->
+ <section>
+  <div class="container">
+     <div class="choose-city p-5">
+     <h4>Livrare flori în România - Orașe în care livrăm gratuit buchete de flori:</h4>
+     <button id="city-button" class="btn-city-list mt-4">Vezi Orașele</button>
+             <ul id="city-list">
+              <li><a href="pages/contact.html">Iasi</a></li>
+              <li><a href="pages/contact.html">Brașov</a></li>
+             </ul>
+     <button id="close-button">Închide lista</button>
+ </div>
+</div>
+ </section>
+<!-- Footer -->
+<footer class="footer-section text-center text-white mt-4">
+  <div class="container p-4">
+<!--Social media -->
+<div class="mb-4">
+  <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+    <i class="fab fa-facebook-f"></i>
+  </a>
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+      <i class="fab fa-twitter"></i>
+    </a>
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+      <i class="fab fa-google"></i>
+    </a>
+    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+<!-- Text -->
+  <div class="mb-4">
+    <p class="footer-text">
+     <span class="logo-text">Lavander</span>, atunci când cuvintele nu sunt suficiente!
+    </p>
+  </div>
+<!-- Links -->
+    <div class="row footer-links">
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-black ">Pagini Adiționale</h5>
+        <ul class=" list-unstyled mb-0">
+          <li>
+            <a href="/pages/aboutUs.html">Despre noi</a>
+          </li>
+          <li>
+            <a href="/pages/valentinesDay.html">Ocazii și evenimente</a>
+          </li>
+          <li>
+            <a href="/pages/delivery.html">Livrare și retur</a>
+          </li>
+          <li>
+            <a href="/pages/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-black">Date de contact</h5>
+        <ul class="list-unstyled mb-0">
+          <li class="text-black">
+            "Lavander" SRL
+          </li>
+          <li class="text-black">
+            <i class="fa-sharp fa-solid fa-location-dot"></i> Str. Necolau 1
+          </li>
+          <li class="text-black">
+            <i class="fa-solid fa-phone"></i> 074 876 7654
+          </li>
+          <li class="text-black">
+            <i class="fa-solid fa-envelope"></i> info@lavander.ro
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-black ">Ora de serviciu</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li class="text-black">
+           <i class="fa-regular fa-clock"></i> Luni - Vineri 9:00 - 20:00
+          </li>
+          <li class="text-black">
+           Sâmbătă - Duminică 9:00 - 18:00
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6 mb-4 mb-md-0 ">
+        <h5 class="text-black ">Informații</h5>
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="/pages/cookies.html">Cookie</a>
+          </li>
+          <li>
+            <a href="/pages/privecyPolicy.html">Politica de Confidențialitate</a>
+          </li>
+          <li>
+            <a href="/pages/termsAndConditions.html">Termeni și Condiții</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-6  mb-4 mb-md-0">
+        <h5 class="text-black ">Protecția consumatorului</h5>
+        <ul class="list-unstyled mb-0">
+        <li>
+        <a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="nofollow" >
+          <img src="https://gomagcdn.ro/themes/fashion/gfx/sal.png" data-src="https://gomagcdn.ro/themes/fashion/gfx/sal.png" alt="SAL" title="SAL" class="img-responsive lazyloaded mb-1" width="200" height="40">
+        </a>
+        </li>
+         <li>
+        <a href="https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&amp;lng=RO" target="_blank" rel="nofollow">
+          <img src="https://gomagcdn.ro/themes/fashion/gfx/sol.png" data-src="https://gomagcdn.ro/themes/fashion/gfx/sol.png" alt="SOL" title="SOL" class="img-responsive ls-is-cached lazyloaded" width="200" height="40"></a>
+        </li>
+        </ul>
+        </div>
+        <div class="col-lg-2 col-md-6  mb-4 mb-md-0">
+          <h5 class="text-black ">Modalități de plată</h5>
+          <ul class="list-unstyled mb-0">
+          <li>
+            <img src="/assets/paypal-logo.png" alt="paypal">
+          </li>
+          <li>
+            <img src="/assets/credit-card-form.png" alt="credit-card">
+          </li>
+          <li>
+            <img src="/assets/symbols.png" alt="symbols">
+          </li>
+          <li>
+            <img src="/assets/american-express.png" alt="american-express">
+          </li>
+          </ul>
+        </div>
+    </div>
+</div>
+<!-- Copyright -->
+<div class="copyright" >
+<div class="text-center p-3" >
+  © 2023 Copyright:
+  <a class="text-white" href="#">Hinganu Larisa</a>
+</div>
+</div>
+</footer>
+
+<script src="index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+<!--0. Jquery Cdn-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!--Owl Carousel Min js-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <!--Init Owl Crousel-->
+  <script>
+    $('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:2
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+  </script>
+</body>
+</html>

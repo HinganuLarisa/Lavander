@@ -1,0 +1,21 @@
+.privacy-policy {
+   margin-top: 120px;
+}
+.container-privecy {
+    width: 100%;
+    background-color:var(--bg-secondary);
+    color: #787b7e
+}
+.container-privecy h6 {
+    color: black;
+    font-weight: 550;
+}
+.container-privecy ul {
+    list-style-type: none;
+    line-height: 40px;
+}
+.container-privecy li {
+    margin-left: -32px;
+    font-size: 14px;
+    line-height: 30px;
+}

@@ -1,0 +1,138 @@
+
+.forms {
+    height: 80vh;
+    width: 100%;
+    padding-top:100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.form {
+    position: absolute;
+    max-width: 430px;
+    width: 100%;
+    box-shadow: 10px 10px 8px 10px  rgba(209, 198, 198, 0.774);
+    padding: 40px;
+
+   
+}
+.form.registration-form {
+    opacity: 0;
+    pointer-events: none;
+    margin-top:20px;
+    height: 75%;
+    margin-bottom: 80px;
+    
+}
+.forms.show-registration .form.registration-form {
+    opacity: 1;
+    pointer-events: auto;
+}
+.forms.show-registration .form.login {
+    opacity: 0;
+    pointer-events: none;
+}
+form .field{
+    height: 45px;
+    line-height: 20px;
+    position: relative;
+    width: 100%;
+}
+.field input {
+  height: 100%;
+  width: 100%;
+
+}
+
+.field {
+    font-weight: bold;
+    margin-bottom: 68px;
+}
+
+.form-check {
+    margin-right: 10px;
+}
+.eye-icon {
+    font-size: 18px;
+    position: absolute;
+    top:120%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: rgb(177, 175, 175);
+}
+.wrapping {
+    text-align: center;
+  }
+@media screen and (max-width: 736px) {
+    .wrapping {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+.btn-login {
+    width: 100%;
+    background-color: var(--secondary-bg-color);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 8px;
+}
+.btn-login:hover {
+    background-color: var(--primary-bg-color);
+    color: black;
+}
+.form-link a {
+    text-decoration: none;
+    color: var(--text-primary);
+    font-weight: bold;
+}
+.forms a:hover {
+    text-decoration: underline;
+}
+.center {
+  text-align: center;
+}
+
+
+@media screen and (max-width:740px) {
+    .login{
+     width: 90%;
+    }
+    .registration-form {
+     width: 90%;
+    }
+    
+ }
+@media screen and (max-width:1280px){
+     .form.registration-form {
+        height: auto;
+        padding-top: 0;
+        padding-bottom: 0px;
+        margin-bottom: 50px;
+       }
+       .forms {
+        margin: 110px;
+    }
+}
+@media screen and (max-width:1024px) and (min-width:600px) {
+    .forms {
+        height: 110vh;
+    }
+}
+.username-error-message {
+    color:var(--secondary-bg-color);
+	font-size: 12px;
+	font-style: italic;
+}
+#emailError,
+#passwordError,
+#username-error-message,
+#emailErrorReg,
+#passwordErrorReg,
+#confirmPasswordError {
+    color:var(--secondary-bg-color);
+	font-size: 12px;
+	font-style: italic;
+}
