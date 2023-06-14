@@ -53,11 +53,15 @@
   width: auto;
   display: flex;
   justify-content: space-around;
+  
 
 }
 #map, #map-brasov{
     width: 100%;
 	height: 30vh;
+}
+.first-map ul, .second-map ul{
+	margin-left: -20px;
 }
 .container-maps h5 {
 	text-align: center;
@@ -71,7 +75,7 @@
 	line-height: 28px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1000px) {
 	.container-maps {
 		display: flex;
 		flex-direction: column;
