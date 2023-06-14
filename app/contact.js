@@ -62,7 +62,7 @@ function validateContact() {
   setTimeout(() => {
     removePopup();
     name.value = '';
-    email.value = ''; //aici am ramas 
+    email.value = ''; 
     subject.value = '';
     message.value = '';
 
@@ -88,7 +88,7 @@ const removePopup = () => {
 const apiKey = 'VBKcxFJGnheURTbvL2X7llDNYT704qt3';
 const address = 'Str Neculau nr 3, Iasi';
 
-const getMapIasi = `http://www.mapquestapi.com/geocoding/v1/address?key=${apiKey}&location=${encodeURIComponent(address)}`;
+const getMapIasi = `https://www.mapquestapi.com/geocoding/v1/address?key=${apiKey}&location=${encodeURIComponent(address)}`;
 
 // Retrieve the latitude and longitude for the address
 fetch(getMapIasi)
@@ -132,7 +132,7 @@ fetch(getMapIasi)
 //The map for the city Brasov
 
 const addressBrasov = 'Strada Toamnei 8, Brasov';
-const getMapBrasov = `http://www.mapquestapi.com/geocoding/v1/address?key=${apiKey}&location=${encodeURIComponent(addressBrasov)}`;
+const getMapBrasov = `https://www.mapquestapi.com/geocoding/v1/address?key=${apiKey}&location=${encodeURIComponent(addressBrasov)}`;
 
 fetch(getMapBrasov)
   .then(response => response.json())
