@@ -1,3 +1,4 @@
+/*First section*/
 .welcome {
 	background-color:var(--primary-bg-color);
 	margin-top: 90px;
@@ -52,7 +53,7 @@
 		height:100%;
 	}
 }
-/*Section two welcome*/
+/*The second welcome section*/
 section h2 {
 	text-align: center;
 	margin:40px 0 40px 0;
@@ -107,7 +108,7 @@ section h2 {
 .mar-left {
 	margin-left:49px;
 }
-/*Cookie*/
+/*Cookies*/
 .wrapper {
 	position: fixed;
 	bottom: 50px;
