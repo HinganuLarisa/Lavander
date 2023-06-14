@@ -71,7 +71,7 @@
 	line-height: 28px;
 }
 
-@media screen and (max-width:912px) {
+@media screen and (max-width:1024px) {
 	.container-maps {
 		display: flex;
 		flex-direction: column;
