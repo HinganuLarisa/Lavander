@@ -29,6 +29,7 @@
 .welcome-img {
 	margin-top: 20px;
 	width: 550px;
+	margin-left: 100px;
 }
 @media screen and (max-width:970px) {
 	.welcome {
