@@ -10,7 +10,6 @@ function automaticSlide() {
   for (let i = 0; i < img.length; i++) {
     img[i].style.display = "none";
   }
-
   firstIndex++;
 
   if (firstIndex > img.length) {
