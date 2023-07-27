@@ -118,7 +118,7 @@ section h2 {
 .mar-left {
 	margin-left:49px;
 }
-/*Cookies*/
+/*Cookies
 .wrapper {
 	position: fixed;
 	bottom: 50px;
@@ -178,6 +178,7 @@ header h5 {
 	background-color: #f3cfb1cc;
 	color: #333;
 }
+*/
 /* What we offer */
 :root {
 	--width: 200px;
